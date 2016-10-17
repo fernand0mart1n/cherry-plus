@@ -1,4 +1,4 @@
-# Life hacks
+# Cherry+
 
 Grupo: 
 
@@ -6,4 +6,4 @@ Grupo:
 
 Requerimientos funcionales:
 
-- A definir
+- Sistema de monitoreo de la producción de cerezas
