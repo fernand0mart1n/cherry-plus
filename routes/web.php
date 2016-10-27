@@ -15,6 +15,10 @@ Route::get('/', function () {
     return view('cherry.index');
 });
 
+Route::get('/nada', function () {
+    return view('welcome');
+});
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index');

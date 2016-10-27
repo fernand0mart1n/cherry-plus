@@ -25,9 +25,9 @@ class HomeController extends Controller
     public function index()
     {
         if (Auth::check()) {
-            return view('tablero.index');    
+            return view('home');    
         } else {
-            return view('home');
+            return view('cherry.index');
         }
     }
 }
