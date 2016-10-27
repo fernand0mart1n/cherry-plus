@@ -12,5 +12,9 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('cherry.index');
 });
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index');
