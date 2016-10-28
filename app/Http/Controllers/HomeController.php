@@ -27,7 +27,7 @@ class HomeController extends Controller
         if (Auth::check()) {
             return view('home');    
         } else {
-            return view('cherry.index');
+            return view('auth.login');
         }
     }
 }
